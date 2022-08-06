@@ -5,4 +5,4 @@ View Jupyter notebook on
 [[Github]](Sentiment_Analysis.ipynb) or
 
  run it on
-[[Colab](https://colab.research.google.com/github/Nagaraj-gt/fp1-stock-value-forecastor/blob/main/Sentiment_Analysis.ipynb)].
+[[Colab](https://colab.research.google.com/github/Nagaraj-gt/fp1-stock-value-forecastor/blob/main/code/Sentiment_Analysis.ipynb)].
