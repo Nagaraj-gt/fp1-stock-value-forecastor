@@ -38,7 +38,7 @@ if ON_COLAB:
     print("\nAdditional setup ...")
     setup_cmds = [
         'pip install torch==1.7.0+cu101 torchvision==0.8.1+cu101 torchaudio==0.7.0 -f https://download.pytorch.org/whl/torch_stable.html',
-	'pip install -r ch11/requirements.txt',
+	'pip install -r code/requirements.txt',
 	'python -m nltk.downloader opinion_lexicon punkt stopwords averaged_perceptron_tagger wordnet',
 	'python -m spacy download en'
     ]
