@@ -14,7 +14,7 @@ def clean(text):
     # text or code in brackets like [0]
     text = re.sub(r'\[[^\[\]]*\]', ' ', text)
     # standalone sequences of specials, matches &# but not #cool
-    text = re.sub(r'(?:^|\s)[&#<>{}\[\]+|\\:-]{1,}(?:\s|$)', ' ', text)
+    text = re.sub(r'(?:^|\s)[#<>{}\[\]+|\\:-]{1,}(?:\s|$)', ' ', text)
     # standalone sequences of hyphens like --- or ==
     text = re.sub(r'(?:^|\s)[\-=\+]{2,}(?:\s|$)', ' ', text)
     # sequences of white spaces
