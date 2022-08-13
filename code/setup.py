@@ -23,6 +23,7 @@ def run(cmd):
 if ON_COLAB:
     required_files = [
         'settings.py',
+	'backup-data/dummy.txt',
         'models/model1',
 	'code/requirements.txt',
 	'packages/preparation.py'
