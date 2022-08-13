@@ -23,7 +23,7 @@ def run(cmd):
 if ON_COLAB:
     required_files = [
         'settings.py',
-        'data/apple_news.csv',
+        'models/model1',
 	'code/requirements.txt',
 	'packages/preparation.py'
     ]
